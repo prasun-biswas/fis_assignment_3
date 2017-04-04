@@ -1,0 +1,60 @@
+if (statechange == 'Z1_Changed') {
+            if (PalletID != -1) {
+                zone[0].current_state = "READY-PROCESSING-ACTIVE";
+                zone[0].previous_state = "READY-IDLE-STARVED"
+                zone[0].eventid = "EquipmentUnStarved"
+            }
+            else {
+                zone[0].current_state = "READY-IDLE-STARVED";
+                zone[0].previous_state = "READY-PROCESSING-ACTIVE"
+                zone[0].eventid = "EquipmentStarved"
+            }
+        }
+        else if (statechange == 'Z2_Changed') {
+            if (PalletID != -1) {
+                zone[1].current_state = "READY-PROCESSING-ACTIVE";
+                zone[1].previous_state = "READY-IDLE-STARVED"
+                zone[1].eventid = "EquipmentUnStarved"
+            }
+            else {
+                zone[1].current_state = "READY-IDLE-STARVED";
+                zone[1].previous_state = "READY-PROCESSING-ACTIVE";
+                zone[1].eventid = "EquipmentStarved";
+            }
+        }
+        else if (statechange == 'Z3_Changed') {
+            if (PalletID != -1) {
+                zone[2].current_state = "READY-PROCESSING-ACTIVE";
+                zone[2].previous_state = "READY-IDLE-STARVED"
+                zone[2].eventid = "EquipmentUnStarved"
+            }
+            else {
+                zone[2].current_state = "READY-IDLE-STARVED";
+                zone[2].previous_state = "READY-PROCESSING-ACTIVE";
+                zone[2].eventid = "EquipmentStarved";
+            }
+        }
+        else if (statechange == 'Z4_Changed') {
+            if (PalletID != -1) {
+                zone[3].current_state = "READY-PROCESSING-ACTIVE";
+                zone[3].previous_state = "READY-IDLE-STARVED"
+                zone[3].eventid = "EquipmentUnStarved"
+            }
+            else {
+                zone[3].current_state = "READY-IDLE-STARVED";
+                zone[3].previous_state = "READY-PROCESSING-ACTIVE";
+                zone[3].eventid = "EquipmentStarved";
+            }
+        }
+        else if (statechange == 'Z5_Changed') {
+            if (PalletID != -1) {
+                zone[4].current_state = "READY-PROCESSING-ACTIVE";
+                zone[4].previous_state = "READY-IDLE-STARVED"
+                zone[4].eventid = "EquipmentUnStarved"
+            }
+            else {
+                zone[4].current_state = "READY-IDLE-STARVED";
+                zone[4].previous_state = "READY-PROCESSING-ACTIVE";
+                zone[4].eventid = "EquipmentStarved";
+            }
+        }

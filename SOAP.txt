@@ -1,0 +1,37 @@
+POST/url HTTP/1.1
+Host:
+Content-type: text/xml; charset=utf-8
+Content-length: 656
+
+<?xml version="1.0" encoding="utf-8" ?> 
+
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/" 
+	 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ 	 xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<soap:Header>
+	<IPC2501MsgInfo=MessageInfo
+	xmlns:IPC2501MsgInfo="http://webstds.ipc.org/2501/MessageInfo.xsd"
+	  sender:
+	  destination:
+	  dateTime:
+          messageschema:
+	  messageId:
+
+</soap:Header>
+<soap:Body>
+</soap:Body>
+	
+</soap:Body>
+</soap:Envelope>
+
+Content-type: text/xml; charset=utf-8
+Content-length: 656
+
+
+<?xml version="1.0" encoding="utf-8" ?> 
+<IPC2541EquipmentChangeState=EquipmentChangeState
+xmlns:IPC2541EquipmentChangeState="http://webstds.ipc.org/2541/EquipmentChangeState.xsd"
+	dateTime
+	currentState=
+	previousState=
+	eventId=
